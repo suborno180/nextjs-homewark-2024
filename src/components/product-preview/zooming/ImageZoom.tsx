@@ -30,7 +30,7 @@ const ImageZoom = () => {
     return (
         <div className='md:min-h-[400px] bg-white'>
             <div className='w-full h-full md:flex'>
-                <div className='h-full w-full order-1 grid place-content-center overflow-hidden min-w-[300px]' onMouseMove={hendelMouseMove} onMouseLeave={hendelMouseOut}>
+                <div className='h-full w-full order-1 grid place-content-center overflow-hidden min-w-[300px] cursor-zoom-in' onMouseMove={hendelMouseMove} onMouseLeave={hendelMouseOut}>
                     {/* Add image zooming effect on mouse over on the */}
                     {
                         mousePosition.x > 0 ? (
