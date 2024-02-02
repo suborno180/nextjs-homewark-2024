@@ -45,7 +45,7 @@ const ImageZoom = () => {
                         <div
                             key={index}
                             className='w-full aspect-h-9 cursor-pointer group overflow-hidden border border-gray-300 rounded-md'
-                            onMouseOver={() => setCurrentImage(img)}
+                            onClick={() => setCurrentImage(img)}
                         >
                             <Image
                                 src={img}
