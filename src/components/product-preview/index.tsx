@@ -19,7 +19,7 @@ const ProductPreviewSection = () => {
                 <div className='md:min-h-[400px] lg:min-w-[50%] bg-white md:flex-1 flex flex-col gap-3 p-3'>
                     <div className='flex flex-col gap-3 p-3'>
                         <div>
-                            <h1>Asus PN63-S1 (Barebone PC) 11th Gen Intel Core i3 1115G4 4GB 3200MHz RAM Black Mini PC</h1>
+                            <h1 className='text-2xl'>Asus PN63-S1 (Barebone PC) 11th Gen Intel Core i3 1115G4 4GB 3200MHz RAM Black Mini PC</h1>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div className='flex items-center'>
