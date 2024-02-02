@@ -40,7 +40,7 @@ const ImageZoom = () => {
                         )
                     }
                 </div>
-                <div className='md:h-full bg-white flex md:flex-col gap-4 p-4'>
+                <div className='md:h-full bg-white flex md:flex-col gap-4 p-4 overflow-auto'>
                     {imgList.map((img, index) => (
                         <div
                             key={index}
