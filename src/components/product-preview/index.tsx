@@ -14,9 +14,9 @@ const ProductPreviewSection = () => {
                     <li className='flex items-center gap-1 text-nowrap '><FaLongArrowAltRight/><span className='line-clamp-1'>Asus PN63-S1 (Barebone PC) 11th Gen Intel Core i3 1115G4 4GB 3200MHz RAM Black Mini PC</span></li>
                 </ul>
             </div>
-            <div className='gap-3 xl:flex'>
+            <div className='gap-3 lg:flex'>
                 <ImageZoom />
-                <div className='md:min-h-[400px] xl:min-w-[50%] bg-white md:flex-1 flex flex-col gap-3 p-3'>
+                <div className='md:min-h-[400px] lg:min-w-[50%] bg-white md:flex-1 flex flex-col gap-3 p-3'>
                     <div className='flex flex-col gap-3 p-3'>
                         <div>
                             <h1>Asus PN63-S1 (Barebone PC) 11th Gen Intel Core i3 1115G4 4GB 3200MHz RAM Black Mini PC</h1>

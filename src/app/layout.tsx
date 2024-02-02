@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: "Suborno's Homework",
   description: "This the project is created by suborno.dev",
   twitter: {
+    description: 'This the project is created by suborno.dev',
     images: '/asus-pn63-s1-barebone-pc-11th-gen-intel-core-i3-11698668116.webp',
-    description: 'This the project is created by suborno.dev'
   },
 };
 
