@@ -10,9 +10,9 @@ const page = () => {
                 <header className='bg-white px-4 lg:p-0'>
                     <div className='container mx-auto max-w-[900ox] bg-white lg:max-w-[1170px]'>
                         <div className='flex items-center lg:flex-col justify-between'>
-                            <div className='w-full min-h-20 py-4'>
+                            <div className='w-full min-h-20 py-4 flex items-center'>
                                 <div className='h-full'>
-                                    <Image src="/logo.png" className='w-[250px] lg:w-auto' alt="" width={350} height={80} />
+                                    <Image src="/logo.png" className='w-[200px] lg:w-[350px]'  alt="" width={350} height={80} />
                                 </div>
                             </div>
                             <button className='font-bold text-2xl rotate-[90deg] text-gray-500 lg:hidden'>|||</button>
