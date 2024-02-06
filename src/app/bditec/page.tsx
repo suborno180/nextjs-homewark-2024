@@ -12,7 +12,7 @@ const page = () => {
                         <div className='flex items-center lg:flex-col justify-between'>
                             <div className='w-full min-h-20 py-4'>
                                 <div className='h-full'>
-                                    <Image src="/logo.png" alt="" width={350} height={80} />
+                                    <Image src="/logo.png" className='w-[250px] lg:w-auto' alt="" width={350} height={80} />
                                 </div>
                             </div>
                             <button className='font-bold text-2xl rotate-[90deg] text-gray-500 lg:hidden'>|||</button>
@@ -33,7 +33,7 @@ const page = () => {
                     </div>
                 </header>
                 <div className='container mx-auto max-w-[900ox] bg-white lg:max-w-[1170px]'>
-                    <div className='w-full min-h-[250px] bg-gray-300'>
+                    <div className='w-full bg-gray-300'>
                        <SliderBDITEC/>
                     </div>
                     <div className='flex'>
