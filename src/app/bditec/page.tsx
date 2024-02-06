@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import SliderBDITEC from './Slider'
 
 const page = () => {
     return (
@@ -32,7 +33,9 @@ const page = () => {
                     </div>
                 </header>
                 <div className='container mx-auto max-w-[900ox] bg-white lg:max-w-[1170px]'>
-                    <div className='w-full min-h-[250px] bg-gray-300'></div>
+                    <div className='w-full min-h-[250px] bg-gray-300'>
+                       <SliderBDITEC/>
+                    </div>
                     <div className='flex'>
                         <div>
                             <section className='min-h-screen w-full pb-8 bg-gray-100/60'>
